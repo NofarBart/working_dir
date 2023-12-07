@@ -1,0 +1,121 @@
+.component {
+    width: 582px;
+  }
+  
+  .component .overlap-group-2 {
+    position: relative;
+    top: -1px;
+  }
+  
+  .component .notes {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 466px;
+  }
+  
+  .component .frame {
+    border-radius: 4px;
+    left: 0;
+    position: absolute;
+    width: 582px;
+  }
+  
+  .component .enter-additional {
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .component.default {
+    height: 102px;
+  }
+  
+  .component.fiiling-with-cursor {
+    height: 153px;
+  }
+  
+  .component.filled {
+    height: 192px;
+  }
+  
+  .component.default .overlap-group-2 {
+    height: 155px;
+  }
+  
+  .component.fiiling-with-cursor .overlap-group-2 {
+    height: 154px;
+  }
+  
+  .component.filled .overlap-group-2 {
+    height: 171px;
+  }
+  
+  .component.default .frame {
+    align-items: center;
+    background-color: var(--variable-collection-fill-in-square);
+    border: 1px solid;
+    border-color: #272c2b;
+    display: flex;
+    gap: 10px;
+    height: 100px;
+    justify-content: center;
+    padding: 10px;
+    top: 55px;
+  }
+  
+  .component.fiiling-with-cursor .frame {
+    background-color: var(--deepbraincolor);
+    border: 3px solid;
+    border-color: var(--primaryblue);
+    height: 102px;
+    top: 52px;
+  }
+  
+  .component.filled .frame {
+    align-items: center;
+    background-color: var(--variable-collection-fill-in-square);
+    border: 1px solid;
+    border-color: #272c2b;
+    display: flex;
+    gap: 10px;
+    height: 97px;
+    justify-content: center;
+    padding: 10px;
+    top: 52px;
+  }
+  
+  .component.default .enter-additional {
+    color: var(--fillin);
+    height: 83px;
+    margin-bottom: -0.5px;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -2.5px;
+    position: relative;
+    width: 566px;
+  }
+  
+  .component.fiiling-with-cursor .enter-additional {
+    color: var(--wordscolor);
+    left: 12px;
+    position: absolute;
+    top: -2px;
+    width: 557px;
+  }
+  
+  .component.filled .enter-additional {
+    color: var(--wordscolor);
+    height: 72px;
+    position: relative;
+    width: 560px;
+  }
+  

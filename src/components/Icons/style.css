@@ -1,0 +1,36 @@
+.icons .ellipse {
+    background-color: #d9d9d9;
+    border: 6px solid;
+    border-color: #3a47bd;
+    border-radius: 20px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .icons .div {
+    background-color: #3a47bd;
+    border-radius: 10px;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 20px;
+  }
+  
+  .icons.radio-off {
+    background-color: #d9d9d9;
+    border: 6px solid;
+    border-color: #494e4c;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .icons.radio-on {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    position: relative;
+  }
+  
