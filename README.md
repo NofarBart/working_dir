@@ -64,3 +64,15 @@ You can close the shell with:
 ```
 exit
 ```
+
+You can see dbs by:
+
+```
+show dbs
+```
+
+You can replace db with:
+
+```
+use db_name
+```

@@ -10,18 +10,18 @@ export const BodyParts = ({ noOfOptions, className }) => {
   });
 
   return (
-    <div className={`body-parts ${className}`}>
-      <div
+    <span className={`body-parts ${className}`}>
+      <span
         className="group"
         onClick={() => {
           dispatch("click");
         }}
       >
         <Icons className="icons-instance" property1={state.noOfOptions === "one" ? "radio-on" : "radio-off"} />
-        <div className="text-wrapper">legs</div>
-      </div>
-      <div className="overlap-group">
-        <div
+        <span className="text-wrapper">legs</span>
+      </span>
+      <span className="overlap-group">
+        <span
           className="group"
           onClick={() => {
             dispatch("click_164");
@@ -34,19 +34,19 @@ export const BodyParts = ({ noOfOptions, className }) => {
             }}
             property1={state.noOfOptions === "two" ? "radio-on" : "radio-off"}
           />
-          <div className="text-wrapper">tail</div>
-        </div>
-        <div
+          <span className="text-wrapper">tail</span>
+        </span>
+        <span
           className="group-2"
           onClick={() => {
             dispatch("click_167");
           }}
         >
           <Icons className="icons-instance" property1={state.noOfOptions === "three" ? "radio-on" : "radio-off"} />
-          <div className="text-wrapper-2">tongue</div>
-        </div>
-      </div>
-    </div>
+          <span className="text-wrapper-2">tongue</span>
+        </span>
+      </span>
+    </span>
   );
 };
 
@@ -84,6 +84,14 @@ function reducer(state, action) {
         ...state,
         noOfOptions: "one",
       };
+
+      // //change start
+      // case "click_188":
+      // return {
+      //   ...state,
+      //   noOfOptions: "two",
+      // };
+      // //change end
 
     case "click_167":
       return {
